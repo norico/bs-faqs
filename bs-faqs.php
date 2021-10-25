@@ -78,6 +78,7 @@ class BSFAQS {
             "rewrite"               => array( "slug" => "faqs", "with_front" => true ),
             "query_var"             => false,
             "menu_position"         => 100,
+            'show_in_nav_menus'     => false,
             "menu_icon"             => "dashicons-text-page",
             "supports"              => array( "title", "editor", "revisions", "author", "page-attributes" ),
         );
